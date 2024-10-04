@@ -48,6 +48,18 @@ padding: 10px;
     margin-left: auto !important;
 }
 
+/* Banner */
+.banner-wrapper{
+    background-image: url(../images/Banner\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 /* media screen MOBILE */
 
 @media screen and (min-width: 428px){
