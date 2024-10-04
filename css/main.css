@@ -14,6 +14,7 @@ body{
     padding: 10px 30px;
     border-radius: 10px;
     font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 .btn-success:hover{
@@ -43,7 +44,11 @@ padding: 10px;
     width: 50px;
 }
 
-/* media screens */
+.me-auto{
+    margin-left: auto !important;
+}
+
+/* media screen MOBILE */
 
 @media screen and (min-width: 428px){
     .navbar>.container-fluid{
@@ -70,4 +75,52 @@ padding: 10px;
         font-size: 1rem;
     }
 }
+/* Media Screen DESKTOP */
 
+@media screen and (min-width: 1440px){
+ .nav-link{
+        font-size: 5rem;
+        margin: 10px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+    .btn-success{
+        background-color: #70a596;
+        border-color: #70a596;
+        padding: 10px 40px;
+        border-radius: 10px;
+        font-size: 15rem;
+        /* margin-right: 20px; */
+    }
+    .navbar-expand-md .navbar-collapse {
+        justify-content: center !important;
+}
+
+}
+   
+/* Media screen TABLET */
+
+@media screen and (min-width: 834px){
+    .nav-link{
+        font-size: 1.05rem;
+        margin: 5px;
+    }
+
+    .logo{
+        width: 180px;
+    }
+    .btn-success{
+        background-color: #70a596;
+        border-color: #70a596;
+        padding: 7px 20px;
+        border-radius: 10px;
+        font-size: .75rem;
+        margin-right: 20px;
+        
+    }
+    .mb-2{
+        margin-bottom: auto !important;
+    }
+}
