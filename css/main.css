@@ -48,17 +48,26 @@ padding: 10px;
     margin-left: auto !important;
 }
 
+
 /* Banner */
 .banner-wrapper{
     background-image: url(../images/Banner\ img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 350px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: left;
+    align-items: left; */
   }
+.banner-title{
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#167474;
+    margin-top: 45px;
+    margin-left: 35px;
+}
 
 /* media screen MOBILE */
 
