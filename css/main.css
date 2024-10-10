@@ -56,17 +56,30 @@ padding: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
-    display: flex;
-    /* justify-content: left;
-    align-items: left; */
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  
   }
 .banner-title{
     display: block;
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: bold;
     color:#167474;
     margin-top: 45px;
-    margin-left: 35px;
+    margin-left: 75px;
+}
+
+.intro{
+    grid-column: 1;
+    margin-left: 75px;
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.d-grid {
+    grid-column: 1;
+    margin-left: 75px;
 }
 
 /* media screen MOBILE */
