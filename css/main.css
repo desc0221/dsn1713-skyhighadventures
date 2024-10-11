@@ -72,7 +72,7 @@ padding: 10px;
   }
 .banner-title{
     display: block;
-    font-size: 2.7em;
+    font-size: 40px;
     font-weight: bold;
     color:#167474;
     margin-top: 45px;
@@ -130,11 +130,11 @@ padding: 10px;
       }
     .banner-title{
         display: block;
-        font-size: 1em;
         font-weight: bold;
         color:#167474;
         margin-top: 25px;
         margin-left: 30px;
+        font-size: 1rem;
     }
     
     .intro{
@@ -154,7 +154,6 @@ padding: 10px;
         background-color: #70a596;
         border-color: #70a596;
         font-size: .7rem;
-        
         margin-left: 0;
         
     }
@@ -167,67 +166,12 @@ padding: 10px;
 
   
 }
-/* Media Screen DESKTOP */
 
-@media screen and (min-width: 1440px){
- .nav-link{
-        font-size: 5rem;
-        margin: 10px;
-    }
-
-    .logo{
-        width: 200px;
-    }
-    .btn-success{
-        background-color: #70a596;
-        border-color: #70a596;
-        padding: 10px 40px;
-        border-radius: 10px;
-        font-size: 15rem;
-        /* margin-right: 20px; */
-    }
-    .navbar-expand-md .navbar-collapse {
-        justify-content: center !important;
-}
-.banner-wrapper{
-    background-image: url(../images/Banner\ img.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  
-  }
-.banner-title{
-    display: block;
-    font-size: 10em;
-    font-weight: bold;
-    color:#167474;
-    margin-top: 45px;
-    margin-left: 75px;
-}
-
-.intro{
-    grid-column: 1;
-    margin-left: 75px;
-    margin-top: 25px;
-    font-weight: 300;
-    font-size: 1.7rem;
-}
-
-.d-grid {
-    grid-column: 1;
-    margin-left: 75px;
-}
-
-}
-   
 /* Media screen TABLET */
 
 @media screen and (min-width: 834px){
     .nav-link{
-        font-size: 1.05rem;
+        font-size: 1rem;
         margin: 5px;
     }
 
@@ -258,7 +202,7 @@ padding: 10px;
       }
     .banner-title{
         display: block;
-        font-size: 1.7em;
+        font-size: 1.7rem;
         font-weight: bold;
         color:#167474;
         margin-top: 50px;
@@ -278,3 +222,70 @@ padding: 10px;
         margin-left: 60px;
     }
 }
+
+/* Media Screen DESKTOP */
+
+@media screen and (min-width: 1440px){
+ .nav-link{
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+    .btn-success{
+        background-color: #70a596;
+        border-color: #70a596;
+        padding: 10px 40px;
+        border-radius: 10px;
+        font-size: 1rem;
+        /* margin-right: 20px; */
+    }
+    .navbar-expand-md .navbar-collapse {
+        justify-content: center !important;
+}
+.banner-wrapper{
+    background-image: url(../images/Banner\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+.banner-title{
+    font-weight: bold;
+    color:#167474;
+    margin-top: 45px;
+    margin-left: 75px;
+    font-size: 3rem;
+}
+
+.intro{
+    grid-column: 1;
+    margin-left: 75px;
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.d-grid {
+    grid-column: 1;
+    margin-left: 75px;
+}
+
+.btn-primary {
+    background-color: #70a596;
+    border-color: #70a596;
+    font-size: 1rem;
+}
+.grey{
+    background-color: #383B3B;
+    border-color: #383B3B;
+    margin-left: 10px;
+}
+
+}
+   
